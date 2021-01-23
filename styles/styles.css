@@ -1,14 +1,12 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper {
     width: 970px;
     height: 1070px;
     background-color: #245075;
-}
-#header {
-    
 }
 #header img {
     width: 380px;
@@ -27,7 +25,6 @@
     margin-bottom: 5px;
     width: 180px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 #right_head a:link {
@@ -36,7 +33,7 @@
 #search {
     background-color: #444444;
     border-radius: 15px;
-    box-shadow: 3px 3px #262D32;
+    box-shadow: 5px 5px 5px #080808;
     width: 280px;
     height: 60px;
 }
@@ -48,7 +45,6 @@
     color: white;
     border-radius: 5px;
     border-style: 1px solid lightgray;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #265279;
     font-size: 14px;
 }
@@ -58,7 +54,6 @@
     height: 30px;
     width: 174px;
     border-style: 5px inset black;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
 }
 .navbar {
@@ -67,6 +62,8 @@
     width: 850px;
     background-color: #427CAE;
     padding-top: 10px;
+    box-shadow: 5px 5px 5px #080808;
+    border-radius: 10px;
 }
 .navbar li {
     display: inline;
@@ -74,10 +71,52 @@
 }
 .navbar a {
     height: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 20px;
     text-decoration: none;
     margin-left: 45px;
     
+}
+.nav_right {
+    margin: 20px 0px 0px 80px;
+    width: 250px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.nav_right li {
+    padding: 5px;
+}
+.nav_right li:before {
+    content: ">>";
+    color: yellow;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.nav_right a {
+    color: white;
+}
+.center_content {
+    width: 550px;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.center_content p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+.center_content ul {
+    list-style: none;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.center_content li {
+    padding: 5px;
+    color: yellow;
+    font-size: 18px;
+    font-weight:lighter;
 }
