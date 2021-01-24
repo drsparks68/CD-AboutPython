@@ -5,7 +5,7 @@
 }
 #wrapper {
     width: 970px;
-    height: 1070px;
+    height: 870px;
     background-color: #245075;
 }
 #header img {
@@ -119,4 +119,22 @@
     color: yellow;
     font-size: 18px;
     font-weight:lighter;
+}
+.bottom_content {
+    background-color: white;
+    height: 220px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    
+}
+.bottom_left, .bottom_right {
+    width: 350px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 5px solid lightslategray;
+}
+.bottom_content ul {
+    margin: 5px;
 }
